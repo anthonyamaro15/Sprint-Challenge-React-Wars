@@ -15,7 +15,7 @@ const ShowCard = ({ list }) => {
     starsships,
     url
   } = list;
-  console.log(list);
+  //   console.log(list);
 
   return (
     <Card>

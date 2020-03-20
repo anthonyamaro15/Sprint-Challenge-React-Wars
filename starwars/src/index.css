@@ -9,3 +9,11 @@ body {
 h1 {
   text-align: center;
 }
+
+button:disabled,
+button[disabled] {
+  background: #333;
+  color: grey;
+
+  cursor: not-allowed;
+}
